@@ -21,7 +21,7 @@ repository               : "rengifoandres/rengifoandres.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "perfil_reduced.pnj"
+  avatar           : "perfilv2.jpg"
   name             : "Andrés Felipe Rengifo Jaramillo"
   pronouns         : # example: "she/her"  
   bio              : "I am and applied economist interested in Econometrics and Data Science"
