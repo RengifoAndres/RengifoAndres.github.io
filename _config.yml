@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Andrés Rengifo"
 title_separator          : "-"
 name                     : &name "Andrés Felipe Rengifo Jaramillo"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "perfilv2.jpg"
   name             : "Andrés Felipe Rengifo Jaramillo"
   pronouns         : # example: "she/her"  
-  bio              : "I am and applied economist interested in Econometrics and Data Science"
+  bio              : "I am and applied economist interested in Econometrics and Data Science."
   location         : "Colombia"
   employer         : "Uniandes/HBS"
   uri              : # URL
@@ -48,7 +48,6 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
