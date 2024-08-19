@@ -19,39 +19,34 @@ Work experience
 * Jun 2023-Present:Research Assistant 
   * Harvard Business School University: Digital Reskilling Lab
   * Duties includes:
-                * Data cleaning,
-                * Data curation and preparation.
-                * Estimation and application of econometric methodologies. 
-                * Report preparation for Stakeholders 
+    * Data cleaning.
+    * Data curation and preparation.
+    * Estimation and application of econometric methodologies. 
+    * Report preparation for Stakeholders.
 
 * Jun 2022 aug 2023: Research Assistant
   * Universidad de los Andes
   * Duties included:
-                * Data cleaning,
-                * Data curation and preparation.
-                * Report preparation for Stakeholders
+    * Data cleaning.
+    * Data curation and preparation.
+    * Report preparation for Stakeholders.
 
 Teaching experience
 ======
-*   2024-I 2024-II 
-    *  Teachin assistant for graduate course Big Data and Machine Learning for Applied Economists
-    * Universidad de los Andes
-
-                * 
+*  Teachin assistant  2024-I 2024-II 
+    *  Big Data and Machine Learning for Applied Economists (Graduate Course) Universidad de los Andes
 
 Coding Skills
 ======
-* Stata Advanced
+* Stata **Advanced**
     * Data cleaning
     * Applied Econometrics
-* R Advance 
+* R **Advanced**
     * Data cleaning
     * Applied Econometrics
     * Aplication  of Machine Learning tecniques
     * Web-scrapping
-* Python 
+* Python **Intermediate**
     * Data cleaning
     * Aplication  of Machine Learning tecniques
     * Web-scrapping
-
-
