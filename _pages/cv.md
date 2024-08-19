@@ -11,48 +11,47 @@ redirect_from:
 
 Education
 ======
-* M.S. in Economics, Universidad de los Andes, 2014
-* B.S. in Economics, Universidad del Valle, 2012
+* M.S. in Economics, Universidad de los Andes, 2023
+* B.S. in Economics, Universidad del Valle, 2019
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jun 2023-Present:Research Assistant 
+  * Harvard Business School University: Digital Reskilling Lab
+  * Duties includes:
+                * Data cleaning,
+                * Data curation and preparation.
+                * Estimation and application of econometric methodologies. 
+                * Report preparation for Stakeholders 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jun 2022 aug 2023: Research Assistant
+  * Universidad de los Andes
+  * Duties included:
+                * Data cleaning,
+                * Data curation and preparation.
+                * Report preparation for Stakeholders
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Teaching experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+*   2024-I 2024-II 
+    *  Teachin assistant for graduate course Big Data and Machine Learning for Applied Economists
+    * Universidad de los Andes
 
-Publications
+                * 
+
+Coding Skills
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Stata Advanced
+    * Data cleaning
+    * Applied Econometrics
+* R Advance 
+    * Data cleaning
+    * Applied Econometrics
+    * Aplication  of Machine Learning tecniques
+    * Web-scrapping
+* Python 
+    * Data cleaning
+    * Aplication  of Machine Learning tecniques
+    * Web-scrapping
+
+
