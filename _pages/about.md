@@ -10,6 +10,8 @@ redirect_from:
 
 About 
 ======
-Welcome! I am an Economist interested in Causal Inference, Econometrics, and Data Science. I work as a Research Assistant at Harvard Business School, and I previously worked in the Business Department at Universidad de los Andes. I received my MSc in Economics from Universidad de los Andes and my Bachelor's degree from Universidad del Valle.
 
-I also enjoy teaching. Currently I am teaching assistant for the course BIG DATA AND MACHINE LEARNING at Universidad de los Andes. 
+Welcome! I'm an Economist with a strong passion for **Causal Inference**, **Econometrics**, and **Data Science**. Currently, I am a Research Assistant at **Harvard Business School** and have previously contributed to the **Business Department** at **Universidad de los Andes**. I hold an MSc in Economics from **Universidad de los Andes** and a Bachelor's degree from **Universidad del Valle**.
+
+In addition to research, I find great joy in teaching. I am currently serving as a Teaching Assistant for the **Big Data and Machine Learning** course at **Universidad de los Andes**.
+
