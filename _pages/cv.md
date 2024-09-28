@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+Yo can find a PDF version of my [CV here](/assets/AndresRengifoCV.pdf).
+
+
+
 Education
 ======
 * M.S. in Economics, Universidad de los Andes, 2023
