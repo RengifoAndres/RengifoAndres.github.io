@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Yo can find a PDF version of my [CV here](/assets/AndresRengifoCV.pdf).
+Yo can find a PDF version of my [CV here](/files/AndresRengifoCV.pdf).
 
 
 
