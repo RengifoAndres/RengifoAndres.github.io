@@ -18,7 +18,7 @@ In this page you can find my research.
 
 ### Check my Master Thesis:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="https://github.com/RengifoAndres/RengifoAndres.github.io/blob/f7af07b41ff7a56123ef4da16ae33a2ed717e159/images/perfile3v1.jpg" alt="Image related to Commodity Price Shocks" style="width: 150px; height: auto; margin-right: 20px;">
+  <img src="https://github.com/RengifoAndres/RengifoAndres.github.io/blob/7de85accf1168147f35208ae1be065ff0a20884d/images/research_images/exclution_r.jpg" alt="Image related to Commodity Price Shocks" style="width: 150px; height: auto; margin-right: 20px;">
   <div>
     <strong>Commodity Price Shocks, Factor Intensity and Non-primary Production Growth: Evidence from Colombia.</strong><br>
     Latest version <a href="/files/Commodity_price_Rengifo.pdf">PDF</a>.<br>
