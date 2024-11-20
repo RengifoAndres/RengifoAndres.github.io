@@ -14,3 +14,5 @@ In this page you can find my research.
 * **Commodity Price Shocks, Factor Intensity and Non-primary Production Growth: Evidence from Colombia.**
   *  Latest version [PDF](/files/Commodity_price_Rengifo.pdf).
   *  Uniandes Repository [PDF](https://repositorio.uniandes.edu.co/entities/publication/71893776-ea19-4290-909b-341633836cce).
+
+![image alt](images/perfile3v1.jpg)
