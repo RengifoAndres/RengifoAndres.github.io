@@ -15,3 +15,4 @@ There you can find some interesting resources
 * R For Data Science **R4DS**  [Link](https://r4ds.hadley.nz/)  
 * Supervised Machine Learning for Text Analysis in R [Link](https://smltar.com/)  
 * Feature Engineering and Selection: A Practical Approach for Predictive Models  [Link](http://www.feat.engineering/) 
+* AI for Humanists. Resources to use AI in Social Research: [Link](https://aiforhumanists.com/)
