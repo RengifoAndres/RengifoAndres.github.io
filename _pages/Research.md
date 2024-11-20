@@ -10,11 +10,6 @@ In this page you can find my research.
 
 
 
-### Check my Master Tesis:
-* **Commodity Price Shocks, Factor Intensity and Non-primary Production Growth: Evidence from Colombia.**
-  *  Latest version [PDF](/files/Commodity_price_Rengifo.pdf).
-  *  Uniandes Repository [PDF](https://repositorio.uniandes.edu.co/entities/publication/71893776-ea19-4290-909b-341633836cce).
-
 
 ### Check my Master Thesis:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
