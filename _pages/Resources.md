@@ -20,11 +20,14 @@ There you can find some interesting resources
 
 ## Data 
 
-* Crimen data in the UK! Data at the neiborghood level or lower-layer super output areas-LSOAs.
-  
-| :memo:        |  Find the data here the data [here](https://data.police.uk/data/archive/)       |
-|---------------|:--------------------------------------------------------------------------------|
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div>
+    <strong> Crimen data in the UK! Data at the neiborghood level or lower-layer super output areas-LSOAs.</strong><br>
+ <ul>
+      <li>Find the data <a href="https://data.police.uk/data/archive/">Here</a></li>
+      <li>Research using the data<a href="https://www.aeaweb.org/articles?id=10.1257/app.20220585">Here</a></li>
+    </ul>
+  </div>
+</div>
 
-| :memo:        |  Find the a research using the data [here](https://www.aeaweb.org/articles?id=10.1257/app.20220585)  |
-|---------------|:-----------------------------------------------------------------------------------------------------|
 
