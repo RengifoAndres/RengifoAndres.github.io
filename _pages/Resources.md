@@ -16,3 +16,10 @@ There you can find some interesting resources
 * Supervised Machine Learning for Text Analysis in R [Link](https://smltar.com/)  
 * Feature Engineering and Selection: A Practical Approach for Predictive Models  [Link](http://www.feat.engineering/) 
 * AI for Humanists. Resources to use AI in Social Research: [Link](https://aiforhumanists.com/)
+
+
+## Data 
+
+* Crimen data in the UK! Data at the neiborghood level or lower-layer super output areas-LSOAs.
+Find the data here the data [here](https://data.police.uk/data/archive/)
+
