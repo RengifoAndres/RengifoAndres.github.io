@@ -38,10 +38,14 @@ lulilla213
 anaclara.souza18
 isa.gonzales06
 murillodaza
-In x: 
+on x: 
 @talvezmuri
 
 danielavera___
 
 caaroramirezz
 ameliab.fit
+
+
+on X:
+@gooners_archive
