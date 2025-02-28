@@ -38,16 +38,17 @@ lulilla213
 anaclara.souza18
 isa.gonzales06
 murillodaza
-on x: 
-@talvezmuri
-
 danielavera___
-
 caaroramirezz
 ameliab.fit
-
+camiiazcarate
+yane_xx_
+valeriasiritt
+veroocr
+carlabechinni
 
 on X:
 @gooners_archive
 alana cho on X
 mewslut on X
+@talvezmuri
