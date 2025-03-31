@@ -17,7 +17,7 @@ In this page you can find my research.
       <li>Draft Coming soon</li>
     </ul>
     <!-- Button to toggle abstract -->
-    <button class="toggle-button" onclick="toggleAbstract(this, 'abstract1')">Show Abstract</button>
+    <button class="toggle-button" onclick="toggleAbstract(this, 'abstract1')">Abstract</button>
     
     <!-- Abstract content -->
     <div id="abstract1" class="abstract-content" style="display: none; margin-top: 10px;">
@@ -39,17 +39,6 @@ In this page you can find my research.
         }
     }
 </script>
-
-## Working Papers
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div>
-    <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong><br>
- <ul>
-      <li>Draft Coming soon</li>
-    </ul>
-  </div>
-</div>
 
 ### Check my Master Thesis:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
