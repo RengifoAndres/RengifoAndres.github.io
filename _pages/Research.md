@@ -23,9 +23,7 @@ author_profile: true
 In this page you can find my research. 
 
 
-
-
-## Working Papers
+# Working Papers
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <img src="/images/research_images/pr_re_auc.jpg" alt="AUC FOR MODELS" style="width: 250px; height: auto; margin-right: 20px;">
@@ -39,7 +37,7 @@ In this page you can find my research.
     
     <!-- Abstract content -->
     <div id="abstract1" class="abstract-content" style="display: none; margin-top: 10px;">
-      <p>This paper explores the effects of the Venezuelan migration exodus on the employment conditions of low-wage native workers. It examines the economic impacts by analyzing changes in job availability, wages, and employment stability...</p>
+      <p>  This paper investigates the effect of migration on Low-Wage workers. Using Machine Learning to identify low-wage employees, this research focuses on the impact of migration on employees with a high predicted probability of being low-wage employees (even if they are not working). This allows for the exploration of the full behavioral impacts on individuals who are arguably more exposed to migration shock.</p>
     </div>
   </div>
 </div>
