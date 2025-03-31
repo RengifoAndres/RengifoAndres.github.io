@@ -23,7 +23,7 @@ author_profile: true
 In this page you can find my research. 
 
 
-# Working Papers
+## Working Papers
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <img src="/images/research_images/pr_re_auc.jpg" alt="AUC FOR MODELS" style="width: 250px; height: auto; margin-right: 20px;">
