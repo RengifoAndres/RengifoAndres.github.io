@@ -4,13 +4,28 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+
+<script>
+    function toggleAbstract(button, abstractId) {
+        var abstract = document.getElementById(abstractId);
+        
+        if (abstract.style.display === "none" || abstract.style.display === "") {
+            abstract.style.display = "block";
+            button.textContent = "Hide Abstract";
+        } else {
+            abstract.style.display = "none";
+            button.textContent = "Show Abstract";
+        }
+    }
+</script>
+
+
 In this page you can find my research. 
-
-
 
 ## Working Papers
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <img src="/images/research_images/au_pr_all" alt="AUC FOR MODELS" style="width: 250px; height: auto; margin-right: 20px;">
   <div>
     <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong><br>
     <ul>
@@ -26,19 +41,7 @@ In this page you can find my research.
   </div>
 </div>
 
-<script>
-    function toggleAbstract(button, abstractId) {
-        var abstract = document.getElementById(abstractId);
-        
-        if (abstract.style.display === "none" || abstract.style.display === "") {
-            abstract.style.display = "block";
-            button.textContent = "Hide Abstract";
-        } else {
-            abstract.style.display = "none";
-            button.textContent = "Show Abstract";
-        }
-    }
-</script>
+
 
 ### Check my Master Thesis:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
