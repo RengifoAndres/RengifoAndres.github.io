@@ -6,6 +6,40 @@ author_profile: true
 ---
 In this page you can find my research. 
 
+
+
+## Working Papers
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div>
+    <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong><br>
+    <ul>
+      <li>Draft Coming soon</li>
+    </ul>
+    <!-- Button to toggle abstract -->
+    <button class="toggle-button" onclick="toggleAbstract(this, 'abstract1')">Show Abstract</button>
+    
+    <!-- Abstract content -->
+    <div id="abstract1" class="abstract-content" style="display: none; margin-top: 10px;">
+      <p>This paper explores the effects of the Venezuelan migration exodus on the employment conditions of low-wage native workers. It examines the economic impacts by analyzing changes in job availability, wages, and employment stability...</p>
+    </div>
+  </div>
+</div>
+
+<script>
+    function toggleAbstract(button, abstractId) {
+        var abstract = document.getElementById(abstractId);
+        
+        if (abstract.style.display === "none" || abstract.style.display === "") {
+            abstract.style.display = "block";
+            button.textContent = "Hide Abstract";
+        } else {
+            abstract.style.display = "none";
+            button.textContent = "Show Abstract";
+        }
+    }
+</script>
+
 ## Working Papers
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
