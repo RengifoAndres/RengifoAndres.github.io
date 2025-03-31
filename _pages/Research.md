@@ -22,10 +22,13 @@ author_profile: true
 
 In this page you can find my research. 
 
+
+
+
 ## Working Papers
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-    <img src="/images/research_images/au_pr_all" alt="AUC FOR MODELS" style="width: 250px; height: auto; margin-right: 20px;">
+    <img src="/images/research_images/au_pr_all.pdf" alt="AUC FOR MODELS" style="width: 250px; height: auto; margin-right: 20px;">
   <div>
     <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong><br>
     <ul>
