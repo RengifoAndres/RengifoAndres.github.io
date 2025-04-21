@@ -52,6 +52,8 @@ estefania_rg11
 celeesteg_
 mariajosecm10
 anaruizmojica
+kimberlyn_naranjo
+fabi_marulanda
 
 on X:
 @gooners_archive
