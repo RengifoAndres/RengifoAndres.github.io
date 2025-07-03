@@ -18,7 +18,8 @@ There you can find some interesting resources
 * Feature Engineering and Selection: A Practical Approach for Predictive Models  [Link](http://www.feat.engineering/) 
 * AI for Humanists. Resources to use AI in Social Research: [Link](https://aiforhumanists.com/)
 * Recomended Books for Data Science [Link](https://datahumans.notion.site/2f4552fd18be4d439b6b6977077e6ca5?v=738d0654fd81490890b8f741a2ef0a3c) 
-
+* Hands-On Programming with R [Link](https://rstudio-education.github.io/hopr/index.html)
+*   
 ## Data 
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
