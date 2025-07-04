@@ -20,6 +20,7 @@ There you can find some interesting resources
 * Recomended Books for Data Science [Link](https://datahumans.notion.site/2f4552fd18be4d439b6b6977077e6ca5?v=738d0654fd81490890b8f741a2ef0a3c) 
 * Hands-On Programming with R [Link](https://rstudio-education.github.io/hopr/index.html)
 * Authoring Books and Technical Documents with R Markdown [Link](https://bookdown.org/yihui/bookdown/)
+* R Programming for Data Science [Link](https://bookdown.org/rdpeng/rprogdatascience/)
 ## Data 
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
