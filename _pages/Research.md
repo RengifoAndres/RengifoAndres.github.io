@@ -27,6 +27,7 @@ In this page you can find my research.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <img src="/images/research_images/pr_re_auc.jpg" alt="AUC FOR MODELS" style="width: 290px; height: auto; margin-right: 20px;">
+     <img src="/images/research_images/ML_MIG_robuss.jpg" alt="AUC FOR MODELS" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
     <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong><br>
     <ul>
