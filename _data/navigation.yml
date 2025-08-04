@@ -17,7 +17,7 @@ main:
   - title: "Resources"
     url: /resources/  
 
-    - title: "Data Projects"
+  - title: "Data Projects"
     url:  /DataProjects/
     
   ## - title: "Instructions"
