@@ -33,4 +33,6 @@ There you can find some interesting resources
   </div>
 </div>
 
+## Economics:  Prelims
+* PenState Prelims [Link](https://econ.la.psu.edu/ph-d-program/ph-d-qualifier-exams/)
 
