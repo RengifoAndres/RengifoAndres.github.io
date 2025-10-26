@@ -30,7 +30,7 @@ In this page you can find my research.
   <div>
     <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong> Submitted <br>
     <ul>
-      <li>  <a href="/files/MigML"> Working Paper Version</a> </li>
+      <li>  <a href="/files/MigML.pdf"> Working Paper Version</a> </li>
     </ul>
     <!-- Button to toggle abstract -->
     <button class="toggle-button" onclick="toggleAbstract(this, 'abstract1')">Abstract</button>
