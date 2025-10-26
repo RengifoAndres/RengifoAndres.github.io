@@ -28,16 +28,17 @@ In this page you can find my research.
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
      <img src="/images/research_images/ML_MIG_robuss.jpg" alt="AUC FOR MODELS" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
-    <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong><br>
+    <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong> Submitted <br>
     <ul>
-      <li>Draft Coming soon</li>
+      <li>  <a href="/files/MigML"> Working Paper Version</a> </li>
     </ul>
     <!-- Button to toggle abstract -->
     <button class="toggle-button" onclick="toggleAbstract(this, 'abstract1')">Abstract</button>
     
     <!-- Abstract content -->
     <div id="abstract1" class="abstract-content" style="display: none; margin-top: 10px;">
-      <p>  This paper examines the short-run labor market effects of Venezuelan migration on low-wage Colombian workers following the 2016 reopening of the border between the two countries. Using nationally representative household survey data from 2012 to 2019 and a machine learning model to classify workers by their predicted probability of being low-wage, I implement a triple-differences (DDD) strategy to estimate causal impacts across cities with varying levels of migrant exposure. The main finding is that, although migration had no significant effects on employment formality, contract type, or self-employment, it did lead to a decline in log wages among low-wage natives in high-migration cities. This effect is robust to alternative definitions of treatment and control groups and persists across multiple model specifications. This suggests that immigration can exert downward pressure on earnings at the lower end of the wage distribution. This last results contradict previous studies carried out in the same context. I suggest that this is due to the lack of a robust identification technique, and provide evidence in that direction.  The findings contribute to growing evidence on the distributional consequences of migration in middle-income countries and underscore the importance of protecting vulnerable groups during large-scale displacement events.
+      <p>  
+This paper examines the labor market effects of Venezuelan migration on low-wage Colombian workers. Using nationally representative survey data from 2012 to 2019 and a machine learning model to classify workers by their predicted probability of being in the lower tail of the wage distribution, I implement a Triple Differences-in-Differences strategy to estimate causal impacts across cities with varying levels of migrant exposure. The main finding is that, although migration had no significant effects on employment formality or self-employment, it did lead to a decline in wages among low-wage natives in high-migration cities. This effect is robust to alternative definitions of treatment and control groups. This finding suggests that immigration can exert downward pressure on earnings at the lower end of the wage distribution  and underscore the importance of protecting vulnerable groups during large-scale displacement events. 
 </p>
     </div>
   </div>
