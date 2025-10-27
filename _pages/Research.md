@@ -28,7 +28,7 @@ In this page you can find my research.
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
      <img src="/images/research_images/event_log_wages_MigML.png" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
-    <strong>Boosted Migration: The Effect of Venezuelan Exodus on Low-Wage Native Employees</strong> Submitted <br>
+    <strong>Boosted Migration: The Effect of Migration on Low-Wage Workers</strong> Submitted <br>
     <ul>
       <li>  <a href="/files/MigML.pdf"> Working Paper Version</a> </li>
     </ul>
