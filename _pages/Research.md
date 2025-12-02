@@ -32,6 +32,9 @@ In this page you can find my research.
     <ul>
       <li>  <a href="/files/MigML.pdf"> Working Paper Version</a> </li>
     </ul>
+     <ul>
+      <li>  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5668270">SSRN</a> </li>
+    </ul>
     <!-- Button to toggle abstract -->
     <button class="toggle-button" onclick="toggleAbstract(this, 'abstract1')">Abstract</button>
     
