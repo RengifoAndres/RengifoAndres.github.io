@@ -49,6 +49,29 @@ This paper examines the labor market effects of Venezuelan migration on low-wage
 
 
 
+## Other Papers
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div>
+    <strong>Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science</strong><br>
+    Abel Brodeur, David Valenta, Alexandru Marcoci, Juan P. Aparicio, Derek Mikola, Bruno Barbarioli, Rohan Alexander, Lachlan Deer, Tom Stafford <br>
+    <em>IZA Discussion Paper No. 17645, January 2025</em>
+    <ul>
+      <li><a href="https://docs.iza.org/dp17645.pdf">IZA Discussion Paper</a></li>
+    </ul>
+    <!-- Button to toggle abstract -->
+    <button class="toggle-button" onclick="toggleAbstract(this, 'abstract2')">Abstract</button>
+    
+    <!-- Abstract content -->
+    <div id="abstract2" class="abstract-content" style="display: none; margin-top: 10px;">
+      <p>
+This study evaluates the effectiveness of varying levels of human and artificial intelligence (AI) integration in reproducibility assessments. We computationally reproduced quantitative results from published articles in the social sciences with 288 researchers, randomly assigned to 103 teams across three groups — human-only teams, AI-assisted teams and teams whose task was to minimally guide an AI to conduct reproducibility checks (the "AI-led" approach). Findings reveal that when working independently, human teams matched the reproducibility success rates of teams using AI assistance, while both groups substantially outperformed AI-led approaches (with human teams achieving 57 pp higher success rates than AI-led teams). Human teams found significantly more major errors compared to both AI-assisted teams and AI-led teams. AI-assisted teams demonstrated an advantage over more automated approaches, detecting 0.4 more major errors per team than AI-led teams, though still significantly fewer than human-only teams. Finally, both human and AI-assisted teams significantly outperformed AI-led approaches in both proposing and implementing comprehensive robustness checks.
+</p>
+    </div>
+  </div>
+</div>
+
+
 ### Check my Master Thesis:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <img src="/images/research_images/exclution_r.jpg" alt="Image related to Commodity Price Shocks" style="width: 250px; height: auto; margin-right: 20px;">
