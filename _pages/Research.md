@@ -26,7 +26,7 @@ In this page you can find my research.
 ## Working Papers
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-     <img src="/images/research_images/bunching.pdf" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
+     <img src="/images/research_images/bunching.png" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
     <strong>Boosted Migration: The Effect of Migration on Low-Wage Workers</strong> Submitted <br>
     <ul>
