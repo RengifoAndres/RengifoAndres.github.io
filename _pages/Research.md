@@ -26,7 +26,7 @@ In this page you can find my research.
 ## Working Papers
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-     <img src="/images/research_images/event_log_wages_MigML.png" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
+     <img src="/images/research_images/bunching.png" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
     <strong>Boosted Migration: The Effect of Migration on Low-Wage Workers</strong> Submitted <br>
     <ul>
@@ -41,7 +41,9 @@ In this page you can find my research.
     <!-- Abstract content -->
     <div id="abstract1" class="abstract-content" style="display: none; margin-top: 10px;">
       <p>  
-This paper examines the labor market effects of Venezuelan migration on low-wage Colombian workers. Using nationally representative survey data from 2012 to 2019 and a machine learning model to classify workers by their predicted probability of being in the lower tail of the wage distribution, I implement a Triple Differences-in-Differences strategy to estimate causal impacts across cities with varying levels of migrant exposure. The main finding is that, although migration had no significant effects on employment formality or self-employment, it did lead to a decline in wages among low-wage natives in high-migration cities. This effect is robust to alternative definitions of treatment and control groups. This finding suggests that immigration can exert downward pressure on earnings at the lower end of the wage distribution  and underscore the importance of protecting vulnerable groups during large-scale displacement events. 
+This paper estimates the causal effect of Venezuelan migration on the wage distribution of low-wage Colombian workers following the 2016 border reopening. Combining a machine-learning-based exposure measure with a grouped difference-in-differences design, I find that the shock increases the probability of being at the bottom of the wage distribution by 3.1 percentage points, alongside a corresponding decline of 3.1 percentage points just below the minimum wage; both effects are statistically significant at the 1 percent level.
+The effect is concentrated in industries where the minimum wage binds tightly and informality is high. 
+A placebo group with low predicted exposure, but subject to the same local labor market shocks, exhibits no changes across wage bins, and a battery of sensitivity checks rules out selective worker sorting across cities, differential minimum-wage bindingness, and dependence on the training year of the classifier. The shock does not raise unemployment but increases labor-force participation by 3.5 percentage points among the most exposed workers. 
 </p>
     </div>
   </div>
