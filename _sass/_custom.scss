@@ -1,0 +1,269 @@
+/* ==========================================================================
+   Custom Styles - Aesthetic Improvements
+   ========================================================================== */
+
+/*
+   1. Toggle Buttons (Abstract show/hide)
+   ========================================================================== */
+
+.toggle-button {
+  display: inline-block;
+  padding: 0.4em 1.2em;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  font-weight: 600;
+  color: $accent-color;
+  background-color: transparent;
+  border: 2px solid $accent-color;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  letter-spacing: 0.02em;
+
+  &:hover {
+    background-color: $accent-color;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba($accent-color, 0.3);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba($accent-color, 0.25);
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+/*
+   2. Active Navigation Indicators
+   ========================================================================== */
+
+.greedy-nav .visible-links a {
+  &:before {
+    background: $accent-color;
+  }
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+// Active state for current page nav link
+.greedy-nav .visible-links li {
+  a.active-link {
+    color: $accent-color;
+    font-weight: 600;
+
+    &:before {
+      -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+              transform: scaleX(1);
+      background: $accent-color;
+    }
+  }
+}
+
+/*
+   3. Research Paper Cards
+   ========================================================================== */
+
+.research-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.8em;
+  padding: 1.5em;
+  background: #fdfdfd;
+  border: 1px solid mix(#fff, $primary-color, 88%);
+  border-left: 4px solid $accent-color;
+  border-radius: 6px;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(#000, 0.08);
+    transform: translateY(-2px);
+  }
+
+  img {
+    width: 280px;
+    height: auto;
+    margin-right: 1.5em;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  strong {
+    font-size: 1.05em;
+    color: $primary-color;
+  }
+
+  ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1.2em;
+  }
+
+  .abstract-content {
+    margin-top: 0.8em;
+    padding: 1em;
+    background: mix(#fff, $accent-color, 95%);
+    border-radius: 4px;
+    font-size: $type-size-6;
+    line-height: 1.7;
+    color: $dark-gray;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+  }
+}
+
+// Status badge for papers
+.paper-status {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  font-size: $type-size-7;
+  font-weight: 600;
+  color: $accent-color;
+  background: mix(#fff, $accent-color, 88%);
+  border-radius: 12px;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*
+   4. Profile Sidebar Card Enhancement
+   ========================================================================== */
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    // Contained within the card wrapper
+  }
+
+  .sidebar {
+    .author__avatar img {
+      border: 3px solid mix(#fff, $accent-color, 70%);
+      box-shadow: 0 2px 12px rgba(#000, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 4px 18px rgba(#000, 0.12);
+      }
+    }
+
+    .author__name {
+      font-family: $heading-font;
+      font-weight: 700;
+      color: $primary-color;
+    }
+
+    .author__bio {
+      color: $dark-gray;
+      line-height: 1.6;
+    }
+
+    .author__urls {
+      a {
+        color: $dark-gray;
+        transition: color 0.2s ease, padding-left 0.2s ease;
+
+        &:hover {
+          color: $accent-color;
+          text-decoration: none;
+          padding-left: 3px;
+        }
+      }
+    }
+  }
+}
+
+// Sidebar card background on desktop
+.sidebar .author-profile-card {
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    background: linear-gradient(180deg, mix(#fff, $accent-color, 96%) 0%, #fff 100%);
+    border-radius: 8px;
+    padding: 1.2em;
+    margin-right: 0.5em;
+    border: 1px solid mix(#fff, $primary-color, 90%);
+    box-shadow: 0 2px 10px rgba(#000, 0.04);
+  }
+}
+
+/*
+   5. Heading Styles with Accent Color
+   ========================================================================== */
+
+.page__content {
+  h2 {
+    font-family: $heading-font;
+    font-weight: 700;
+    color: $primary-color;
+    border-bottom: 2px solid mix(#fff, $accent-color, 60%);
+    padding-bottom: 0.4em;
+  }
+
+  h3 {
+    font-family: $heading-font;
+    font-weight: 600;
+    color: mix(#000, $primary-color, 15%);
+  }
+}
+
+.page__title {
+  font-family: $heading-font;
+  color: $primary-color;
+}
+
+/*
+   6. Link Styling Enhancement
+   ========================================================================== */
+
+.page__content a:not(.btn) {
+  color: $accent-color;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    color: mix(#000, $accent-color, 20%);
+    border-bottom-color: $accent-color;
+  }
+}
+
+/*
+   7. Masthead Accent
+   ========================================================================== */
+
+.masthead {
+  border-bottom: 2px solid mix(#fff, $accent-color, 70%);
+}
+
+/*
+   8. Paper Authors & Venue Styling
+   ========================================================================== */
+
+.paper-authors {
+  font-size: $type-size-6;
+  color: $gray;
+  margin-top: 0.3em;
+  line-height: 1.5;
+}
+
+.paper-venue {
+  font-style: italic;
+  color: mix(#000, $gray, 10%);
+  font-size: $type-size-6;
+  margin-top: 0.2em;
+}
