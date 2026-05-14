@@ -25,11 +25,8 @@ In addition to research, I find great joy in teaching. I was the Teaching Assist
 
 
 
-
-
 # ⚡ ⚡ ⚡ News!!   ⚡ ⚡ ⚡
 ### 1) New version of  Working Paper OUT!!! 
-The NEW version of my paper is here: 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
      <img src="/images/research_images/bunching.png" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
