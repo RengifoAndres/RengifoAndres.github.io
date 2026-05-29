@@ -11,7 +11,7 @@ redirect_from:
 
 I’m an Economist interested in Causal Inference, Econometrics, Data Science and Labor Economics. 
 
-Currently, I am a Senior Research Associate at [Good Business Lab Latin America](https://gbllatinamerica.com/en/). Previously I was a research assistant at Harvard Business School [Digital Reskilling Lab](https://d3.harvard.edu/labs/digital-reskilling-lab/). I also worked at the Business Department at Universidad de los Andes.
+Currently, I am a Senior Research Associate at [Good Business Lab Latin America](https://goodbusinesslablatam.org/). Previously I was a research assistant at Harvard Business School [Digital Reskilling Lab](https://d3.harvard.edu/labs/digital-reskilling-lab/). I also worked at the Business Department at Universidad de los Andes.
 
 I hold an MSc in Economics from Universidad de los Andes and a Bachelor’s degree from Universidad del Valle.
 
