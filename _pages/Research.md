@@ -28,7 +28,7 @@ In this page you can find my research.
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
      <img src="/images/research_images/bunching.png" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
-    <strong>Boosted Migration: The Effect of Migration on Low-Wage Workers</strong> <span class="paper-status">Submitted</span><br>
+    <strong>Boosted Migration: The Effect of Migration on Low-Wage Workers</strong> <span class="paper-status">Under Review</span><br>
     <ul>
       <li><a href="/files/MigML.pdf">Working Paper Version</a></li>
       <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5668270">SSRN</a></li>
@@ -54,8 +54,9 @@ A placebo group with low predicted exposure, but subject to the same local labor
   <div>
     <strong>Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science</strong><br>
     <span class="paper-authors">Abel Brodeur, David Valenta, Alexandru Marcoci, Juan P. Aparicio, Derek Mikola, Bruno Barbarioli, Rohan Alexander, Lachlan Deer, Tom Stafford</span><br>
-    <span class="paper-venue">IZA Discussion Paper No. 17645, January 2025</span>
+    <span class="paper-venue">PNAS, 2025</span>
     <ul>
+      <li><a href="/files/brodeur-et-al-2026-ai-assisted-teams.pdf">Published Version</a></li>
       <li><a href="https://docs.iza.org/dp17645.pdf">IZA Discussion Paper</a></li>
     </ul>
     <!-- Button to toggle abstract -->
