@@ -49,6 +49,7 @@ A placebo group with low predicted exposure, but subject to the same local labor
 
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+     <img src="/images/research_images/coming_soon.svg" alt="Coming Soon" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
     <strong>Longer School Day and Student Trajectories: Short and Long-Run Evidence from Colombia's Jornada Unica</strong> <span class="paper-status">Draft Coming Soon</span><br>
     <!-- Button to toggle abstract -->
