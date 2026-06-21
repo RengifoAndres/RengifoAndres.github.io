@@ -48,6 +48,22 @@ A placebo group with low predicted exposure, but subject to the same local labor
 </div>
 
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div>
+    <strong>Longer School Day and Student Trajectories: Short and Long-Run Evidence from Colombia's Jornada Unica</strong> <span class="paper-status">Draft Coming Soon</span><br>
+    <!-- Button to toggle abstract -->
+    <button class="toggle-button" onclick="toggleAbstract(this, 'abstract3')">Abstract</button>
+    
+    <!-- Abstract content -->
+    <div id="abstract3" class="abstract-content" style="display: none;">
+      <p>
+We study Colombia's Jornada Unica (JU), a reform that converts public schools from half-day shifts to a single full day, exploiting its staggered roll-out across schools between 2015 and 2019. Using an event-study design, we estimate the effect of adopting JU on (i) Saber 11 exit-exam scores in the short run and (ii) higher-education outcomes in the long run. We find small but positive and statistically significant effects on test scores across subjects. These gains are driven by an increase in the share of students in the upper tail of the score distribution and a corresponding decrease in the lower tail. The improvement in scores does not translate into higher overall enrollment in tertiary education; instead, it lowers the probability of enrolling in a technological program. The results are robust to using never-treated rather than not-yet-treated schools as the comparison group.
+</p>
+    </div>
+  </div>
+</div>
+
+
 ## Other Papers
 
 <div class="research-card">
