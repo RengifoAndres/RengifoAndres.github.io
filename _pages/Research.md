@@ -28,7 +28,7 @@ In this page you can find my research.
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
      <img src="/images/research_images/bunching.png" alt="Event" style="width: 290px; height: auto; margin-right: 20px;">
   <div>
-    <strong>Boosted Migration: The Effect of Migration on Low-Wage Workers</strong> <span class="paper-status">Under Review</span><br>
+    <strong>Boosted Migration: The Effect of Migration on Low-Wage Workers</strong> <span class="paper-status">Revise & Resubmit, Labour Economics</span><br>
     <ul>
       <li><a href="/files/MigML.pdf">Working Paper Version</a></li>
       <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5668270">SSRN</a></li>
