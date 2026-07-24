@@ -53,7 +53,7 @@
   <text x="150" y="160" font-family="'Source Sans Pro', 'Segoe UI', Arial, sans-serif" font-size="13" fill="#7a8288" text-anchor="middle" letter-spacing="1">COMING SOON</text>
 
   <!-- Dots animation -->
-  <circle cx="130" y="178" r="3" fill="#2a9d8f" opacity="0.3">
+  <circle cx="130" cy="178" r="3" fill="#2a9d8f" opacity="0.3">
     <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="0s" repeatCount="indefinite"/>
   </circle>
   <circle cx="150" cy="178" r="3" fill="#2a9d8f" opacity="0.3">
