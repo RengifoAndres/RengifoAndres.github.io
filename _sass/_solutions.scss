@@ -1,0 +1,97 @@
+/* ==========================================================================
+   PROBLEM SOLUTIONS
+   ========================================================================== */
+
+.problem {
+  margin-bottom: 2.5em;
+  background: #fff;
+  border: 1px solid mix(#fff, $primary-color, 90%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.problem__header {
+  padding: 1.3em 1.6em 0;
+}
+
+.problem__tag {
+  display: inline-block;
+  padding: 0.2em 0.8em;
+  font-size: $type-size-7;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $accent-color;
+  background: mix(#fff, $accent-color, 90%);
+  border-radius: 14px;
+}
+
+.page__content .problem__title {
+  margin: 0.5em 0 0;
+  padding: 0;
+  border: 0;
+  font-family: $heading-font;
+  color: $primary-color;
+}
+
+.problem__statement {
+  padding: 0.6em 1.6em 1.2em;
+  line-height: 1.7;
+}
+
+.problem__list {
+  padding-left: 2em;
+
+  li {
+    margin-bottom: 0.4em;
+  }
+}
+
+.problem__hint {
+  padding: 0.7em 1em;
+  background: mix(#fff, $accent-color, 94%);
+  border-left: 3px solid $accent-color;
+  border-radius: 4px;
+}
+
+.solution {
+  border-top: 1px solid mix(#fff, $primary-color, 90%);
+  background: #fcfdfd;
+
+  summary {
+    padding: 0.9em 1.6em;
+    font-family: $heading-font;
+    font-weight: 600;
+    color: $accent-color;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      background: mix(#fff, $accent-color, 95%);
+    }
+  }
+}
+
+.solution__body {
+  padding: 0.2em 1.6em 1.4em;
+  line-height: 1.75;
+
+  h3 {
+    margin: 1.6em 0 0.4em;
+    padding-bottom: 0.2em;
+    font-size: $type-size-4;
+    border-bottom: 1px solid mix(#fff, $accent-color, 60%);
+  }
+
+  .proof {
+    padding-left: 1em;
+    border-left: 3px solid mix(#fff, $primary-color, 75%);
+    color: $dark-gray;
+  }
+
+  // keep long display equations scrollable on phones
+  mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
