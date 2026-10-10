@@ -1,0 +1,168 @@
+---
+layout: archive
+title: "Problem Solutions"
+permalink: /resources/solutions/
+author_profile: true
+---
+
+<p>Worked solutions to selected problems from preliminary exams and graduate courses. Back to <a href="/resources/">Resources</a>.</p>
+
+<article class="problem" id="rubinstein-a1">
+  <header class="problem__header">
+    <span class="problem__tag">Microeconomic Theory &middot; Preferences</span>
+    <h2 class="problem__title">Preferences (after Rubinstein, question A1)</h2>
+  </header>
+
+  <div class="problem__statement">
+    <p>
+      Let \(X = \mathbb{R}_+ \times \{0,1,2,\dots\}\), where \((x,t)\) is interpreted as receiving \(x\) at time \(t\).
+      A rational preference relation \(\succsim\) on \(X\) has the following properties:
+    </p>
+    <ol class="problem__list" type="i">
+      <li>There is indifference between receiving \(0\) at time \(0\) and receiving \(0\) at any other time.</li>
+      <li>It is better to receive any positive amount of money as soon as possible.</li>
+      <li>Money is desirable.</li>
+      <li>The preference between \((x,t)\) and \((y,t+1)\) is independent of \(t\).</li>
+      <li><em>Continuity:</em> for any \((x,t)\) and \((y,s)\) with \((x,t) \succ (y,s)\), there is \(\epsilon &gt; 0\)
+        such that for any \(x'\) with \(|x-x'| &lt; \epsilon\) and any \(y'\) with \(|y-y'| &lt; \epsilon\),
+        \((x',t) \succ (y',s)\).</li>
+    </ol>
+    <p>
+      <strong>(a)</strong> Show by construction that the preference relation \(\succsim\) has a utility representation.
+    </p>
+    <p class="problem__hint">
+      <em>Hint:</em> First show that for any pair \((x,t)\), there is a unique number \(v(x,t) \in \mathbb{R}_+\)
+      such that \((x,t) \sim (v(x,t),0)\).
+    </p>
+  </div>
+
+  <details class="solution" open>
+    <summary>Solution to (a)</summary>
+
+    <div class="solution__body">
+
+      <h3>Conventions</h3>
+      <p>
+        <em>Rational</em> means complete and transitive. Hence \(\succ\) is asymmetric and \(\sim\) is an equivalence
+        relation, and we may freely substitute indifferent bundles for one another (for example,
+        \(a \succ b\) and \(b \sim c\) imply \(a \succ c\)). I read the properties as follows:
+      </p>
+      <ul>
+        <li><strong>(ii)</strong> if \(x &gt; 0\) and \(s &lt; t\), then \((x,s) \succ (x,t)\);</li>
+        <li><strong>(iii)</strong> if \(x &gt; y\), then \((x,t) \succ (y,t)\) for every date \(t\).</li>
+      </ul>
+
+      <p>
+        <strong>Plan.</strong> Define \(v(x,t)\) as the amount received <em>today</em> (at \(t=0\)) that is equally good as
+        \((x,t)\). We show that it exists (Step 1), that it is unique (Step 2), and that it represents \(\succsim\)
+        (Step 3).
+      </p>
+
+      <h3>Step 1 &mdash; Existence</h3>
+      <p>
+        Fix \((x,t)\). We must find \(z \in \mathbb{R}_+\) with \((z,0) \sim (x,t)\).
+      </p>
+
+      <p><strong>Trivial cases.</strong></p>
+      <ul>
+        <li>If \(t = 0\), take \(z = x\).</li>
+        <li>If \(x = 0\), property (i) gives \((0,0) \sim (0,t)\), so take \(z = 0\).</li>
+      </ul>
+
+      <p><strong>Main case: \(x &gt; 0\) and \(t &gt; 0\).</strong></p>
+
+      <p><em>(a) Bracketing.</em> Three facts:</p>
+      <ul>
+        <li>By (ii), \((x,0) \succ (x,t)\).</li>
+        <li>By (iii), \((x,t) \succ (0,t)\), and by (i), \((0,t) \sim (0,0)\). Hence \((x,t) \succ (0,0)\).</li>
+      </ul>
+      <p>
+        So the target bundle sits strictly between two bundles that are received today:
+        \[(x,0) \;\succ\; (x,t) \;\succ\; (0,0).\]
+      </p>
+
+      <p><em>(b) Two sets.</em> Define, for amounts received today,</p>
+      \[A = \{\, z \in \mathbb{R}_+ : (z,0) \succ (x,t) \,\}, \qquad
+        B = \{\, z \in \mathbb{R}_+ : (x,t) \succ (z,0) \,\}.\]
+      <p>
+        By (a), \(x \in A\) and \(0 \in B\), so both sets are non-empty. They are disjoint because \(\succ\) is asymmetric.
+      </p>
+
+      <p><em>(c) Both sets are open</em> (in \(\mathbb{R}_+\)), by continuity (v).</p>
+      <ul>
+        <li>
+          Let \(z \in A\), i.e. \((z,0) \succ (x,t)\). Apply (v) to this pair and keep the second bundle fixed
+          (\(y' = x\)). There is \(\epsilon &gt; 0\) with \((z',0) \succ (x,t)\) whenever \(|z - z'| &lt; \epsilon\).
+          So a neighbourhood of \(z\) lies in \(A\).
+        </li>
+        <li>
+          Let \(z \in B\), i.e. \((x,t) \succ (z,0)\). Apply (v) keeping the first bundle fixed (\(x' = x\)).
+          There is \(\epsilon &gt; 0\) with \((x,t) \succ (z',0)\) whenever \(|z - z'| &lt; \epsilon\).
+          So a neighbourhood of \(z\) lies in \(B\).
+        </li>
+      </ul>
+
+      <p><em>(d) Connectedness.</em>
+        \(\mathbb{R}_+\) is an interval, hence connected, so it cannot be written as the union of two non-empty,
+        disjoint, open sets. Therefore \(A \cup B \neq \mathbb{R}_+\): there is some \(z^* \notin A \cup B\).
+      </p>
+
+      <p><em>(e) Indifference.</em> Since \(z^* \notin A\), we do not have \((z^*,0) \succ (x,t)\); by completeness,
+        \((x,t) \succsim (z^*,0)\). Since \(z^* \notin B\), we do not have \((x,t) \succ (z^*,0)\); by completeness,
+        \((z^*,0) \succsim (x,t)\). Both weak preferences together mean
+        \[(z^*,0) \sim (x,t).\]
+      </p>
+
+      <h3>Step 2 &mdash; Uniqueness</h3>
+      <p>
+        Suppose \(z_1 &gt; z_2\) both satisfy \((z_i,0) \sim (x,t)\). By transitivity of \(\sim\),
+        \((z_1,0) \sim (z_2,0)\). But (iii) gives \((z_1,0) \succ (z_2,0)\), a contradiction.
+        Hence the amount is unique, and we may define
+      </p>
+      \[v(x,t) \;=\; \text{the unique } z \in \mathbb{R}_+ \text{ with } (z,0) \sim (x,t).\]
+      <p>
+        By construction, \(v(x,0) = x\) and \(v(0,t) = 0\).
+      </p>
+
+      <h3>Step 3 &mdash; \(v\) represents \(\succsim\)</h3>
+      <p>
+        <strong>Lemma.</strong> For \(z, w \in \mathbb{R}_+\): \((z,0) \succsim (w,0) \iff z \ge w\).
+      </p>
+      <p class="proof">
+        <em>Proof.</em> If \(z = w\), the bundles are identical, so \((z,0) \succsim (w,0)\) by reflexivity.
+        If \(z &gt; w\), then \((z,0) \succ (w,0)\) by (iii). Conversely, if \(z &lt; w\), then
+        \((w,0) \succ (z,0)\) by (iii), so \((z,0) \succsim (w,0)\) fails by asymmetry. \(\square\)
+      </p>
+
+      <p>Now take any two bundles. Because \((x,t) \sim (v(x,t),0)\) and \((y,s) \sim (v(y,s),0)\), we can
+        substitute these indifferent bundles on each side:</p>
+      \[(x,t) \succsim (y,s)
+        \;\iff\; (v(x,t),0) \succsim (v(y,s),0)
+        \;\iff\; v(x,t) \ge v(y,s),\]
+      <p>
+        where the first equivalence uses transitivity of \(\succsim\) (in both directions) and the second is the Lemma.
+        This is exactly the statement that \(U(x,t) = v(x,t)\) is a utility representation of \(\succsim\). \(\blacksquare\)
+      </p>
+
+      <h3>Remarks</h3>
+      <ul>
+        <li>
+          <strong>Sanity check.</strong> \(v(x,t) \le x\): if \(v(x,t) &gt; x\), then
+          \((v(x,t),0) \succ (x,0) \succ (x,t)\) by (iii) and (ii), contradicting \((v(x,t),0) \sim (x,t)\).
+          Waiting never makes an amount more valuable, which is the discounting intuition.
+        </li>
+        <li>
+          <strong>Unused property.</strong> Property (iv) was not needed for existence of a representation. It restricts
+          how \(v\) behaves across dates (stationarity), so it matters for further structure on \(v\), not for the
+          construction above.
+        </li>
+        <li>
+          <strong>Where each property was used.</strong> (i): the cases \(x=0\) and the lower bracket;
+          (ii): the upper bracket and the sanity check; (iii): bracketing, uniqueness and the Lemma;
+          (v): openness of \(A\) and \(B\), which, together with connectedness of \(\mathbb{R}_+\), delivers existence.
+        </li>
+      </ul>
+
+    </div>
+  </details>
+</article>

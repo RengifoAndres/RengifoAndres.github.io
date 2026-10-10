@@ -35,4 +35,7 @@ There you can find some interesting resources
 
 ## Economics:  Prelims
 * PenState Prelims [Link](https://econ.la.psu.edu/ph-d-program/ph-d-qualifier-exams/)
+* McGill PhD Comprehensive Exams (Micro) [Link](https://www.mcgill.ca/economics/graduates/phd-comprehensive-exams/micro)
+* UC Davis Preliminary Exams (Macro and Micro) [Link](https://economics.ucdavis.edu/preliminary-exams-macro-and-micro-economics)
+* Worked solutions to selected prelim problems [Link](/resources/solutions/)
 
